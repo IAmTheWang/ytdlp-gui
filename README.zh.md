@@ -42,7 +42,7 @@ wails dev
 go test ./...
 
 # 前端类型检查
-cd frontend && npx tsc --noEmit
+cd frontend && bunx tsc --noEmit
 
 # 打包生产环境可执行文件 -> build/bin/ytdlp-gui.exe
 wails build

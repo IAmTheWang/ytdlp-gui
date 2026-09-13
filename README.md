@@ -46,7 +46,7 @@ wails dev
 go test ./...
 
 # Typecheck the frontend
-cd frontend && npx tsc --noEmit
+cd frontend && bunx tsc --noEmit
 
 # Build a production executable -> build/bin/ytdlp-gui.exe
 wails build

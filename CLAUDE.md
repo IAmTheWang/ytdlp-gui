@@ -36,7 +36,7 @@ go test ./...
 gofmt -l .                       # should print nothing
 
 # Frontend (run from frontend/)
-npx tsc --noEmit                 # typecheck
+bunx tsc --noEmit                # typecheck
 
 # Whole app
 wails dev                        # hot-reload dev mode; also serves the UI over plain HTTP

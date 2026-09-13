@@ -44,7 +44,7 @@ wails dev
 go test ./...
 
 # フロントエンドの型チェック
-cd frontend && npx tsc --noEmit
+cd frontend && bunx tsc --noEmit
 
 # 本番用実行ファイルをビルド -> build/bin/ytdlp-gui.exe
 wails build
